@@ -1,0 +1,117 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+  background: #FFFFFF;
+}
+body {
+  font-family: 'segoe-ui', sans-serif;
+}
+img {
+  max-width: 100%;
+}
+
+*:active, *:hover, *:focus{
+  outline: 0;
+  outline-offset: 0;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+  margin: 0;
+}
+
+button, a {
+  cursor: pointer;
+}
+
+//      CONTAINER
+
+.container {
+  width: 100%;
+  max-width: 955px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  z-index: 5;
+}
+.header__container {
+  width: 100%;
+  max-width: 936px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  z-index: 5;
+}
+.main__container {
+  width: 100%;
+  max-width: 780px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  z-index: 5;
+}
+.example__container {
+  width: 100%;
+  max-width: 974px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  z-index: 5;
+}
+.details__container {
+  width: 100%;
+  max-width: 831px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  z-index: 5;
+}
+.facts__container {
+  width: 100%;
+  max-width: 933px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  z-index: 5;
+}
+.slids__container {
+  width: 100%;
+  max-width: 627px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  z-index: 5;
+}
+.footer__container {
+  width: 100%;
+  max-width: 843px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  z-index: 5;
+}
+
+
+
+//     HOME PAGE
+//     HEAD

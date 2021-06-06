@@ -1,0 +1,150 @@
+.reasons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  &__title {
+    max-width: 249px;
+    width: 100%;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 74px;
+    &::after {
+      content: '';
+      width: 486px;
+      height: 40px;
+      background-color: #015a96;
+      position: absolute;
+      bottom: 95px;
+      right: -241px;
+    }
+    &::before {
+      content: '';
+      position: absolute;
+      width: 547px;
+      height: 185px;
+      left: -154px;
+      top: -76px;
+      background-image: url('../img/c-t.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+  &__cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  &__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    &-left {
+      align-items: flex-end;
+    }
+    &-right {
+      align-items: flex-start;
+      background-color: #f2f3f7;
+    }
+  }
+
+
+}
+.card {
+  &-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 69px;
+    padding-top: 0;
+    padding-bottom: 14px;
+    position: relative;
+    &__item {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      margin-bottom: 17px;
+      &:nth-last-child(1) {
+        margin-bottom: 0;
+      }
+    }
+    &__imgs {
+      margin-right: 13px;
+    }
+    &__top {
+      padding-bottom: 19px;
+    }
+    &__ul {
+      position: relative;
+      &::before {
+        content: 'We';
+        position: absolute;
+        color: #f2f3f7;
+        font-family: 'Raleway', sans-serif;
+        font-size: 200px;
+        font-weight: 800;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 30px;
+        text-align: center;
+        z-index: -1;
+        top: 44px;
+        left: 6px;
+      }
+    }
+  }
+  &-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin-left: 58px;
+    padding-top: 76px;
+    padding-bottom: 106px;
+    &__ul {
+      margin-right: 28px;
+      position: relative;
+      z-index: 1;
+      &::before {
+        content: 'Other agencies:';
+        position: absolute;
+        color: #d9dade;
+        font-family: 'Raleway', sans-serif;
+        font-size: 72px;
+        font-weight: 800;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: right;
+        z-index: -1;
+        bottom: -15px;
+        left: 81px;
+      }
+    }
+  }
+  &__text {
+    max-width: 292px;
+    width: 100%;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+  }
+}
